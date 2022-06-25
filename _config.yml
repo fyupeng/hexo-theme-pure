@@ -91,11 +91,11 @@ donate:
   enable: true
   # 微信打赏
   wechatpay:
-    qrcode: images/donate/wechatpayimg.png
+    qrcode: images/donate/wechatpayimg.jpg
     title: 微信支付
   # 支付宝打赏
   alipay: 
-    qrcode: images/donate/alipayimg.png 
+    qrcode: images/donate/alipayimg.jpg 
     title: 支付宝
 
 # Share
@@ -132,17 +132,17 @@ comment:
     ClientSecret: 
     lazy: false
   gitalk: # gitalk. https://gitalk.github.io/
-    owner:  #必须. GitHub repository 所有者，可以是个人或者组织。
-    admin:  #必须. GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)。
-    repo:  #必须. GitHub repository.
-    ClientID:  #必须. GitHub Application Client ID.
-    ClientSecret:  #必须. GitHub Application Client Secret.
+    owner: 'fyupeng' #必须. GitHub repository 所有者，可以是个人或者组织。
+    admin: ['fyupeng'] #必须. GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)。
+    repo:  'hexo-pure-gittalk' #必须. GitHub repository.
+    ClientID: 4e6accd0e570b1359764 #必须. GitHub Application Client ID.
+    ClientSecret: 129a9d9f1fdd4021da1202ce78fb1512175505aa #必须. GitHub Application Client Secret.
     enableHotKey: true
     language: zh-CN
     
   valine: # Valine. https://valine.js.org
-    appid:  # your leancloud application appid
-    appkey:  # your leancloud application appkey
+    appid: opeaNqQSpYv8bykmFJ4WTJc6-gzGzoHsz # your leancloud application appid
+    appkey: LDirEIkQzN7NNzJVtPBfXxLH # your leancloud application appkey
     notify: false # mail notifier , https://github.com/xCss/Valine/wiki
     verify: false # Verification code
     placeholder: Just go go # comment box placeholder
@@ -203,9 +203,9 @@ profile:
   avatar: images/avatar.jpg
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
   author: fyupeng
-  author_title: Web Developer & Designer
+  author_title: Java 后端开发
   author_description: 一名平凡的本科生，目前碌碌无为。
-  location: guangzhou, China
+  location: 广州, 中国
   follow: https://github.com/fyupeng
   # Social Links
   social:
