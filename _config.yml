@@ -31,7 +31,7 @@ site:
     width: 40
     height: 40
     url: ../images/logo.png
-  title: Hexo # 页面title
+  title: fyupeng # 页面title
   favicon: /favicon.png
   board: <p>欢迎交流与分享经验!</p> # 站点公告
   copyright: false # 底部版权信息
@@ -132,18 +132,18 @@ comment:
     ClientSecret: 
     lazy: false
   gitalk: # gitalk. https://gitalk.github.io/
-    owner: 'fyupeng' #必须. GitHub repository 所有者，可以是个人或者组织。
-    admin: ['fyupeng'] #必须. GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)。
-    repo:  'hexo-pure-gittalk' #必须. GitHub repository.
-    ClientID: 4e6accd0e570b1359764 #必须. GitHub Application Client ID.
-    ClientSecret: 129a9d9f1fdd4021da1202ce78fb1512175505aa #必须. GitHub Application Client Secret.
+    owner: #必须. GitHub repository 所有者，可以是个人或者组织。
+    admin: #必须. GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)。
+    repo:  #必须. GitHub repository.
+    ClientID: #必须. GitHub Application Client ID.
+    ClientSecret: #必须. GitHub Application Client Secret.
     enableHotKey: true
     language: zh-CN
     
   valine: # Valine. https://valine.js.org
     appid: opeaNqQSpYv8bykmFJ4WTJc6-gzGzoHsz # your leancloud application appid
     appkey: LDirEIkQzN7NNzJVtPBfXxLH # your leancloud application appkey
-    notify: false # mail notifier , https://github.com/xCss/Valine/wiki
+    notify: true # mail notifier , https://github.com/xCss/Valine/wiki
     verify: false # Verification code
     placeholder: Just go go # comment box placeholder
     avatar: mm # gravatar style
@@ -173,9 +173,9 @@ pv:
   busuanzi:
     enable: false  # 不蒜子统计
   leancloud:
-    enable: false  # leancloud统计
-    app_id: # leancloud <AppID>
-    app_key: # leancloud <AppKey>
+    enable: true  # leancloud统计
+    app_id: opeaNqQSpYv8bykmFJ4WTJc6-gzGzoHsz # leancloud <AppID>
+    app_key: LDirEIkQzN7NNzJVtPBfXxLH # leancloud <AppKey>
         
 # wordcount
 postCount:
@@ -212,41 +212,71 @@ profile:
     links:
       github: https://github.com/fyupeng
       weibo: http://weibo.com/fyupeng
-      twitter: https://twitter.com/fyupeng
+      #twitter: https://twitter.com/fyupeng
       # facebook: /
       # dribbble: /
-      behance: https://www.behance.net/fyupeng
+      #behance: https://www.behance.net/fyupeng
       rss: atom.xml
     link_tooltip: true # enable the social link tooltip, options: true, false
   # My Skills 
   skills:
-    Git: ★★★☆☆
-    Gulp: ★★★☆☆
-    Javascript: ★★★☆☆
-    HTML+CSS: ★★★☆☆
-    Bootstrap: ★★★☆☆
-    ThinkPHP: ★★★☆☆
-    平面设计: ★★★☆☆
+    Java: 熟悉
+    JavaSE: 熟悉
+    JavaWeb: 熟悉
+    Linux: 熟悉
+    MySQL: 熟悉
+    Redis: 掌握
+    Spring: 掌握
+    MyBatis: 掌握
+    SpringMVC: 良好
+    SpringBoot: 良好
+    Vue: 了解
+    MongoDB: 了解
+    JUC: 了解
+    JVM: 了解
+    Dubbo: 了解
+    Netty: 了解     
   # My Personal Links
   links:
     Github: https://github.com/fyupeng
     Blog: https://blog.csdn.net/F15217283411
-    微博: http://weibo.com/fyupeng
+    #微博: http://weibo.com/fyupeng
     花瓣: http://huaban.com/fyupeng
-    Behance: https://www.behance.net/fyupeng
+    #Behance: https://www.behance.net/fyupeng
   # My Personal Labels
   labels:
-    - 前端
-    - 前端开发
-    - 前端重构
-    - Web前端
-    - 网页重构
+    - Java 后端开发
+    - Web 网页开发
   # My Personal Works
-  works:
-    name:
-      link: http://www.example.com
-      date: 2016
+  works: 
+    Rpc Netty Distributed Framework: 
+      link: https://github.com/fyupeng/rpc-netty-framework 
+      date: 2021 
+    Blog Management System Based On Plant Identification: 
+      link: https://github.com/fyupeng/crop-multi-api 
+      date: 2022 
+    Douyin Wechat Mini Program: 
+      link: https://github.com/fyupeng/tony-videos-dev 
+      date: 2021 
+    Front-end for coffee ordering based on Vue: 
+      link: https://github.com/fyupeng/coffee 
+      date: 2021 
+    Based on native JS + Servlet blog Management System: 
+      link: https://github.com/fyupeng/MyBlog 
+      date: 2021 
+    Traffic Penalty Management System: 
+      link: https://github.com/fyupeng/traffic-penalty-system 
+      date: 2020 
+    Encrypted Contacts: 
+      link: https://github.com/fyupeng/encrypted-contacts 
+      date: 2019 
   # My Personal Projects
   projects:
-    fyupeng/tony-videos-admin: https://github.com/fyupeng/tony-videos-admin
-    fyupeng/tony-videos-dev: https://github.com/fyupeng/tony-videos-dev
+    fyupeng/crop-multi-api: https://github.com/fyupeng/crop-multi-api 
+    fyupeng/rpc-netty-framework: https://github.com/fyupeng/rpc-netty-framework 
+    fyupeng/tony-videos-dev: https://github.com/fyupeng/tony-videos-dev 
+    fyupeng/tony-videos-admin: https://github.com/fyupeng/tony-videos-admin 
+    fyupeng/hexo-theme-pure: https://github.com/fyupeng/hexo-theme-pure 
+    fyupeng/MyBlog: https://github.com/fyupeng/MyBlog 
+    fyupeng/traffic-penalty-system: https://github.com/fyupeng/traffic-penalty-system 
+    fyupeng/coffee: https://github.com/fyupeng/coffee 
