@@ -1,11 +1,25 @@
 <footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
 	<%- partial('_common/social', null, {cache: !config.relative_link}) %>
+	<% if (theme.pv.busuanzi.site) { %>
+		<div>
+			<span id="busuanzi_container_site_pv">
+				本站总访问量<span id="busuanzi_value_site_pv"></span>次
+			</span>
+		</div>	
+		<div>
+			<span id="busuanzi_container_site_uv">
+			  本站访客数<span id="busuanzi_value_site_uv"></span>人次
+			</span>
+		</div>
+	<% } %>
+		
+	</div>
     <div class="copyright">
     	<% if(theme.site.copyright) { %>
         &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %>
         <% } %>
         <div class="publishby">
-        	<%= __('copyright.theme_by') %> <a href="https://github.com/cofess" target="_blank"> cofess </a><%= __('copyright.base_on') %> <a href="https://github.com/cofess/hexo-theme-pure" target="_blank">pure</a>.
-        </div>
+        	<%= __('copyright.theme_by') %> <a href="https://github.com/fyupeng" target="_blank"> fyupeng </a><%= __('copyright.base_on') %> <a href="https://github.com/fyupeng/hexo-theme-pure" target="_blank">pure</a>.
+        </div>	
     </div>
 </footer>
