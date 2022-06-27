@@ -34,7 +34,7 @@ site:
   title: fyupeng # 页面title
   favicon: /favicon.png
   board: <p>欢迎交流与分享经验!</p> # 站点公告
-  copyright: false # 底部版权信息
+  copyright: true # 底部版权信息
 
 # config
 config:
@@ -79,7 +79,7 @@ archive_type: 'monthly'
 show_count: true
 
 # Fancybox
-fancybox: false
+fancybox: true
 
 # Search
 search:
@@ -143,7 +143,7 @@ comment:
   valine: # Valine. https://valine.js.org
     appid: opeaNqQSpYv8bykmFJ4WTJc6-gzGzoHsz # your leancloud application appid
     appkey: LDirEIkQzN7NNzJVtPBfXxLH # your leancloud application appkey
-    notify: true # mail notifier , https://github.com/xCss/Valine/wiki
+    notify: false # mail notifier , https://github.com/xCss/Valine/wiki
     verify: false # Verification code
     placeholder: Just go go # comment box placeholder
     avatar: mm # gravatar style
@@ -171,15 +171,16 @@ douban:
 # PV
 pv:
   busuanzi:
-    enable: false  # 不蒜子统计
+    enable: true  # 不蒜子统计
+    site: false # 是否启用 本站访问量和访客数
   leancloud:
-    enable: true  # leancloud统计
+    enable: false  # leancloud统计
     app_id: opeaNqQSpYv8bykmFJ4WTJc6-gzGzoHsz # leancloud <AppID>
     app_key: LDirEIkQzN7NNzJVtPBfXxLH # leancloud <AppKey>
         
 # wordcount
 postCount:
-  enable: false
+  enable: true
   wordcount: true  # 文章字数统计
   min2read: true  # 阅读时长预计 
 
